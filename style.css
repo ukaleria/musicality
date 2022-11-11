@@ -33,6 +33,13 @@ ul.none li{
     background-repeat: no-repeat;
     background: #23204A;
     /*position: fixed;*/
+
+}
+
+@media (max-width: 553px) {
+    .menu nav {
+        display: block;
+    }
 }
 
 .head{
@@ -79,12 +86,35 @@ ul.none li{
 .img2{
     width: 200px;
     float: left;
+    margin: 10px 40px 7px 0;
+
 }
+
+.textTop3{
+    list-style-type: none;
+    /*margin: 10px 1000px 110px 150px;*/
+    padding: 10px;
+    box-shadow:
+            inset 0 0 0 #CC2F1F,
+            0 0  0 2px black,
+            1.3em 1em 1em #23204A;
+    max-width: 350px;
+    margin-left: 60px;
+}
+
+.comment{
+    margin-top: 100px;
+}
+
+/*.syt{*/
+/*    margin-top: 20px;*/
+/*}*/
 
 .text1{
     /*display: inline-block;*/
     /*margin-top: 130px;*/
 }
+
 
 
 

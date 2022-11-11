@@ -1,0 +1,148 @@
+
+body {
+    background-color: ghostwhite;
+    /*background-image: url("Img/Syrena.jpg");*/
+}
+
+.head{
+    /*background-image: url(Img/bg.gif);*/
+    /*margin: 0px;*/
+    /*padding: 0px;*/
+    /*position: 0px;*/
+    background-color: #ffff64;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 100px;
+
+}
+.menu nav{
+    display: flex;
+    justify-content: center;
+}
+
+.menu nav a{
+    margin: 5px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.menu nav a:hover{
+    background-color: #ffff64;
+}
+
+.menu{
+    /*background-image: url(Img/bg.gif);*/
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: #23204A;
+    /*position: fixed;*/
+
+}
+
+h1, h2{
+    color: #23204A;
+    font-family: verdana;
+}
+
+@media (max-width: 553px) {
+    .menu nav {
+        display: block;
+    }
+}
+
+.album{
+    margin-top: 130px;
+    box-shadow:
+            inset 0 0 0 #CC2F1F,
+            0 0  0 2px black,
+            1.3em 1em 1em #23204A;
+}
+
+@import "https://fonts.googleapis.com/css?family=Montserrat:300,400,700";
+.rwd-table {
+    margin: 1em 0;
+    min-width: 300px;
+}
+.rwd-table tr {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+.rwd-table th {
+    display: none;
+}
+.rwd-table td {
+    display: block;
+}
+.rwd-table td:first-child {
+    padding-top: .5em;
+}
+.rwd-table td:last-child {
+    padding-bottom: .5em;
+}
+.rwd-table td:before {
+    content: attr(data-th) ": ";
+    font-weight: bold;
+    width: 6.5em;
+    display: inline-block;
+}
+@media (min-width: 480px) {
+    .rwd-table td:before {
+        display: none;
+    }
+}
+.rwd-table th, .rwd-table td {
+    text-align: left;
+}
+@media (min-width: 480px) {
+    .rwd-table th, .rwd-table td {
+        display: table-cell;
+        padding: .25em .5em;
+    }
+    .rwd-table th:first-child, .rwd-table td:first-child {
+        padding-left: 0;
+    }
+    .rwd-table th:last-child, .rwd-table td:last-child {
+        padding-right: 0;
+    }
+}
+
+body {
+    padding: 0 2em;
+    font-family: Montserrat, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    color: #444;
+    background: #eee;
+}
+
+h1 {
+    font-weight: normal;
+    letter-spacing: -1px;
+    color: #34495E;
+}
+
+.rwd-table {
+    background: #34495E;
+    color: #fff;
+    border-radius: .4em;
+    overflow: hidden;
+}
+.rwd-table tr {
+    border-color: #46637f;
+}
+.rwd-table th, .rwd-table td {
+    margin: .5em 1em;
+}
+@media (min-width: 480px) {
+    .rwd-table th, .rwd-table td {
+        padding: 1em !important;
+    }
+}
+.rwd-table th, .rwd-table td:before {
+    color: #dd5;
+}
