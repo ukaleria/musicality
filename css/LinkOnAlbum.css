@@ -127,10 +127,11 @@ h1 {
 }
 
 .rwd-table {
-    background: #34495E;
+    background: #23204A;
     color: #fff;
     border-radius: .4em;
     overflow: hidden;
+    font-family: Verdana;
 }
 .rwd-table tr {
     border-color: #46637f;
@@ -146,3 +147,5 @@ h1 {
 .rwd-table th, .rwd-table td:before {
     color: #dd5;
 }
+
+
