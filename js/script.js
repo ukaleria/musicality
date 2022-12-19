@@ -1,24 +1,24 @@
-// type="text/javascript"
-// function shineLinks(id){
-//     try{
-//         var el=document.getElementById(id).getElementsByTagName('a');
-//         var url=document.location.href;
-//         for(var i=0;i<el.length; i++){
-//             if (url==el[i].href){
-//                 el[i].className += ' act';
-//             };
-//         };
-//     }catch(e){}
-// };
+type="text/javascript"
+function shineLinks(id){
+    try{
+        var el=document.getElementById(id).getElementsByTagName('a');
+        var url=document.location.href;
+        for(var i=0;i<el.length; i++){
+            if (url==el[i].href){
+                el[i].className += ' act';
+            };
+        };
+    }catch(e){}
+};
 
 // let a = document.querySelectorAll('.navbar-menu_item')
 // a.forEach((el)=>{
 //     if (el.getAttribute('href') == window.location.pathname) el.classList.add('test')
 // })
-//
-// let time = performance.timing;
-//
-// let pageloadtime = time.loadEventStart - time.navigationStart;
+
+let time = performance.timing;
+
+let pageloadtime = time.loadEventStart - time.navigationStart;
 
 /* TO DO LIST */
 $(".tdl-new").bind('keypress', function(e){

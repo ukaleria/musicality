@@ -3,6 +3,8 @@ body {
     /*background-image: url("Img/Syrena.jpg");*/
 }
 
+
+
 .head{
     /*background-image: url(Img/bg.gif);*/
     /*margin: 0px;*/
@@ -31,6 +33,9 @@ body {
 
 .menu nav a:hover{
     background-color: #ffff64;
+    color: #23204A;
+    border-radius: 0.25em;
+
 }
 
 .menu{
@@ -43,8 +48,10 @@ body {
 
 }
 
+
 h1, h2{
     color: #23204A;
+
     font-family: verdana;
 }
 
@@ -52,6 +59,11 @@ h1, h2{
     .menu nav {
         display: block;
     }
+}
+
+.row {
+    justify-content: center;
+    align-items: center;
 }
 
 .top3{
@@ -75,4 +87,16 @@ h1, h2{
     max-width: 350px;
     margin-left: 60px;
 
+}
+
+.hidden {
+    display: none;
+}
+
+.posts .posts__error {
+    align-self: center;
+    color: #ee3333;
+    font-family: 'Fredoka-Semibold', sans-serif;
+    font-size: 25px;
+    text-decoration: none;
 }
