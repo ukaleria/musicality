@@ -32,6 +32,9 @@ body {
 
 .menu nav a:hover{
     background-color: #ffff64;
+    color: #23204A;
+    border-radius: 0.25em;
+
 }
 
 .menu{
